@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Settings</string>
+	<key>items</key>
+	<dict>
+		<key>Default Scan Session Date Range</key>
+		<array>
+			<dict>
+				<key>type</key>
+				<string>DateDropDownTableViewCell</string>
+				<key>showIndicator</key>
+				<false/>
+				<key>action</key>
+				<string>0</string>
+				<key>dictionary</key>
+				<dict>
+					<key>label</key>
+					<string>From Date:</string>
+					<key>value</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DateDropDownTableViewCell</string>
+				<key>showIndicator</key>
+				<false/>
+				<key>action</key>
+				<string>0</string>
+				<key>dictionary</key>
+				<dict>
+					<key>label</key>
+					<string>To Date:</string>
+					<key>value</key>
+					<string></string>
+				</dict>
+			</dict>
+		</array>
+		<key>Base Location</key>
+		<array>
+			<dict>
+				<key>type</key>
+				<string>TableViewCell</string>
+				<key>showIndicator</key>
+				<true/>
+				<key>dictionary</key>
+				<dict>
+					<key>label</key>
+					<string>Get base location</string>
+					<key>method</key>
+					<string>getBaseLocation</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DropDownTableViewCell</string>
+				<key>showIndicator</key>
+				<false/>
+				<key>dictionary</key>
+				<dict>
+					<key>label</key>
+					<string>Distance:</string>
+					<key>source</key>
+					<string>distances</string>
+					<key>value</key>
+					<string></string>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
